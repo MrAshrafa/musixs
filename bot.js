@@ -12,7 +12,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('ready', () => {
-  client.user.setGame('#help.','https://www.twitch.tv/peery13');
+  client.user.setGame('1help.','https://www.twitch.tv/peery13');
 });
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
@@ -426,7 +426,7 @@ function isYoutube(str) {
      -------:::::::::
      prefix = ${prefix}
      ping = ${Date.now() - message.createdTimestamp}ms
-     send by - ${message.author.username}`)
+     `)
 
       message.channel.send({embed});
 
@@ -857,8 +857,8 @@ function isYoutube(str) {
      خروج البوت من الروم
      -------------
      prefix = ${prefix2}
-     ping = ${Date.now() - message.createdTimestamp}ms
-     send by - ${message.author.username}`)
+
+     `)
 
       message.channel.send({embed});
 
@@ -1291,7 +1291,7 @@ function isYoutube(str) {
      -----------
      prefix = ${prefix3}
      ping = ${Date.now() - message.createdTimestamp}ms
-     send by - {mesaage.author.username}`)
+     `)
 
       message.channel.send({embed});
 
@@ -1721,8 +1721,8 @@ function isYoutube(str) {
      خروج البوت من الروم
      -----------
      prefix = ${prefix4}
-     ping = ${Date.now() - message.createdTimestamp}ms
-     send by - ${message.author.username}`)
+
+`)
 
       message.channel.send({embed});
 
@@ -2151,7 +2151,7 @@ function isYoutube(str) {
      -------------
      prefix = ${prefix5}
      ping = ${Date.now() - message.createdTimestamp}ms
-     send by - ${mesaage.author.unername}`)
+     `)
 
       message.channel.send({embed});
 
